@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 const Menu = ({firstElement, secondElement, thirdElement, link}) => (
-  <menu>
+  <nav>
     <ul>
       <li>{firstElement}</li>
       <li>{secondElement}</li>
@@ -10,7 +10,7 @@ const Menu = ({firstElement, secondElement, thirdElement, link}) => (
         <a href={link}>{thirdElement}</a>
       </li>
     </ul>
-  </menu>
+  </nav>
 );
 
 ReactDOM.render (
